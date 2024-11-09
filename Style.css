@@ -1,0 +1,80 @@
+img{
+    width: 50px;
+    border: 2px solid rgb(230, 230, 236);
+    border-radius: 50px;
+}
+.image{
+    padding: 3px;
+}
+.container{
+    display: flex;
+    background-color: rgb(7, 139, 18);
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+.bar{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+li{
+    padding: 5px 130px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+body{
+    background-image: url(stefano-pollio-ZC0EbdLC8G0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-items: center;
+}
+.copy{
+    text-align: center;
+    text-shadow: 1px 1px 1px green;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: auto;
+    width: 350px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 12px;
+}
+.water{
+    margin-top: 0%;
+    text-align: center;
+    text-decoration: wavy;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+button{
+    justify-items: center;
+    width: 350px;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
